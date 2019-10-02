@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai5</title>
+</head>
+<body>
+<script>
+    let a = 1;
+    let b = 1;
+    let number = 0;
+    let count = 0;
+    while (count < 10) {
+        number = number + a + b;
+        a = a + b;
+        b = a + b;
+        count++;
+    }
+    document.write('Tổng 20 số fibonacci đầu tiên là: ' + number);
+</script>
+</body>
+</html>
